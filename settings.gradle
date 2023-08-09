@@ -1,0 +1,22 @@
+import org.gradle.api.initialization.resolve.RepositoriesMode
+
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        google()
+        mavenCentral()
+        maven { url "https://jitpack.io" }
+        maven { url "https://repo.eclipse.org/content/repositories/paho-releases/"}
+        maven { url "https://repo.eclipse.org/content/repositories/paho-snapshots/" }
+        // Warning: this repository is going to shut down soon
+    }
+}
+rootProject.name = "AlentApps"
+include ':app'

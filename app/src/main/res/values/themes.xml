@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AlentApps" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/aqua</item>
+        <item name="colorPrimaryDark">@color/aqua</item>
+        <item name="colorAccent">#2196F3</item>
+        <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.AlentApps.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppButtonStyle" parent="Widget.MaterialComponents.Button.TextButton.Icon">
+        <item name="backgroundColor">#00BCD4</item>
+        <item name="strokeColor">#FF75A7FF</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">16dp</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.AlentApps.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.AlentApps.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

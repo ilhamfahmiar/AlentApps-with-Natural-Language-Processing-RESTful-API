@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Popupfaceactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/pop_up">
+
+        <TextView
+            android:id="@+id/facetitle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="TEXT"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/namachbtn"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:hint="Masukan Nama Lengkap"
+            android:inputType="textPersonName"
+            android:text=""
+            android:textColor="@color/black"
+            android:textColorHint="#DFDFDF"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnlanjut"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="100dp"
+            android:text="Next"
+            android:background="@drawable/btn_popup"
+            android:layout_marginBottom="20dp"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
